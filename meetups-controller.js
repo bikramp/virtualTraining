@@ -2,6 +2,7 @@ app.controller('meetupsController', ['$scope', '$resource', function ($scope, $r
   var Meetup = $resource('/api/meetups/meeting');
 
   Meetup.query(function (results) {
+    //comment added
     $scope.meetups = results;
   });
 
