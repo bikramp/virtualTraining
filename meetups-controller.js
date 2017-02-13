@@ -1,5 +1,5 @@
 app.controller('meetupsController', ['$scope', '$resource', function ($scope, $resource) {
-  var Meetup = $resource('/api/meetups/meeting_id');
+  var Meetup = $resource('/api/meetups/meeting');
 
   Meetup.query(function (results) {
     $scope.meetups = results;
