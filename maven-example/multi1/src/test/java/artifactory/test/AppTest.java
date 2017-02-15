@@ -29,10 +29,11 @@ public class AppTest
     }
 
     /**
-     * Rigourous Test :-)
+     * Rigourous Test :
      */
     public void testApp()
     {
+      //Before assert
         assertTrue( true );
     }
 }
